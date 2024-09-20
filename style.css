@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: rgba(169, 89, 244, 0.668);
+}
+
+h1{
+    margin: 2%;
+    color: rgb(136, 78, 194);
+}
+
+#root{
+    background-color: rgb(209, 209, 209);
+    width: 900px;
+    text-align: center;
+    border: solid 1px rgb(144, 144, 144);
+    border-radius: 10px;
+    box-shadow: 0px, 5px 15px rgba(0, 0, 0, 0.2);
+   
+}
+
+#check{
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    
+}
+
+button{
+
+    padding: 12px 24px;
+    font-size: 1rem;
+    border-radius: 7px;
+    cursor: pointer;
+   
+}
+
+
+
+#inputtarea{
+    width: 300px;
+    height: 50px;
+    font-size: 1.5rem;
+    margin-right: 2%;
+    border-radius: 5px;
+    border: solid 2px gray;
+}
+
+#containertext{
+    margin-top: 2%;
+}
+
+#benviar{
+    color: white;
+    background-color: rgb(0, 119, 255);
+    border: solid 2px rgb(101, 174, 174);
+}
+
+#benviar:hover{
+    background-color: rgb(40, 58, 149);
+}
+
+#delteall{
+    border: solid rgba(132, 33, 33, 0.895);
+    margin-left: 1.5%;
+    background-color: rgba(224, 10, 10, 0.821);
+    color: white;
+}
+
+#tareas{
+    margin-top: 2%;
+    text-align: start;
+    font-size: 1.3rem;
+    border-bottom: 2px rgb(7, 7, 7);
+}
+
+#target{
+    display: flex;
+    justify-content: center;
+    
+}
+
